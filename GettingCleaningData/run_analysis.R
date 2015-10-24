@@ -1,12 +1,12 @@
 ## Merges the training and the test sets to create one data set
 
 # Combines Training and test data sets
-dtTrain <- read.table("X_train.txt", header = FALSE, sep = "")
-dtTest <- read.table("X_test.txt", header = FALSE, sep = "")
+dtTrain <- read.table("./UCI HAR Dataset/train/X_train.txt", header = FALSE, sep = "")
+dtTest <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE, sep = "")
 dt <- rbind(dtTrain, dtTest)
 
 # Assigns column names to the merged data set
-features <- read.table("features.txt", header = FALSE, sep = "")
+features <- read.table("./UCI HAR Dataset/features.txt", header = FALSE, sep = "")
 colNames <- features$V2
 colNames <- as.character(colNames)
 colnames(dt) <- colNames
@@ -20,14 +20,14 @@ dtExtract2 <- dt[, grep("std()", colnames(dt))]
 dtExtract <- cbind(dtExtract1, dtExtract2)
 
 # Combines activity ID from Training and Test groups and assign its column name
-activityTrain <- read.table("Y_train.txt", header = FALSE, sep = "")
-activityTest <- read.table("Y_test.txt", header = FALSE, sep = "")
+activityTrain <- read.table("./UCI HAR Dataset/train/Y_train.txt", header = FALSE, sep = "")
+activityTest <- read.table("./UCI HAR Dataset/test/Y_test.txt", header = FALSE, sep = "")
 activity <- rbind(activityTrain, activityTest)
 colnames(activity) <- "activityID"
 
 # Combines subject ID from Training and Test groups and assign its column name
-idTrain <- read.table("subject_train.txt", header = FALSE, sep = "")
-idTest <- read.table("subject_test.txt", header = FALSE, sep = "")
+idTrain <- read.table("./UCI HAR Dataset/train/subject_train.txt", header = FALSE, sep = "")
+idTest <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = FALSE, sep = "")
 id <- rbind(idTrain, idTest)
 colnames(id) <- "subjectID"
 
