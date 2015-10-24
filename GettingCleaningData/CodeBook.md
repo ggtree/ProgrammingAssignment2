@@ -65,88 +65,168 @@ The set of variables that were estimated from these signals for this project are
 ### Complete list of variables in the tidy data set
 
 The unit for variables whose names starting with "time" is second
+
 The unit for variables whose names starting with "frequency" is radians/second
 
-
 1 subjectID
+
 2 activity
+
 3 timeBodyAccelerationMeanX
+
 4 timeBodyAccelerationMeanY
+
 5 timeBodyAccelerationMeanZ
+
 6 timeGravityAccelerationMeanX
+
 7 timeGravityAccelerationMeanY
+
 8 timeGravityAccelerationMeanZ
+
 9 timeBodyAccelerationJerkMeanX
+
 10 timeBodyAccelerationJerkMeanY
+
 11 timeBodyAccelerationJerkMeanZ
+
 12 timeBodyAngularVelocityMeanX
+
 13 timeBodyAngularVelocityMeanY
+
 14 timeBodyAngularVelocityMeanZ
+
 15 timeBodyAngularVelocityJerkMeanX
+
 16 timeBodyAngularVelocityJerkMeanY
+
 17 timeBodyAngularVelocityJerkMeanZ
+
 18 timeBodyAccelerationMagnitudeMean
+
 19 timeGravityAccelerationMagnitudeMean
+
 20 timeBodyAccelerationJerkMagnitudeMean
+
 21 timeBodyAngularVelocityMagnitudeMean
+
 22 timeBodyAngularVelocityJerkMagnitudeMean
+
 23 frequencyBodyAccelerationMeanX
+
 24 frequencyBodyAccelerationMeanY
+
 25 frequencyBodyAccelerationMeanZ
+
 26 frequencyBodyAccelerationMeanFreqX
+
 27 frequencyBodyAccelerationMeanFreqY
+
 28 frequencyBodyAccelerationMeanFreqZ
+
 29 frequencyBodyAccelerationJerkMeanX
+
 30 frequencyBodyAccelerationJerkMeanY
+
 31 frequencyBodyAccelerationJerkMeanZ
+
 32 frequencyBodyAccelerationJerkMeanFreqX
+
 33 frequencyBodyAccelerationJerkMeanFreqY
+
 34 frequencyBodyAccelerationJerkMeanFreqZ
+
 35 frequencyBodyAngularVelocityMeanX
+
 36 frequencyBodyAngularVelocityMeanY
+
 37 frequencyBodyAngularVelocityMeanZ
+
 38 frequencyBodyAngularVelocityMeanFreqX
+
 39 frequencyBodyAngularVelocityMeanFreqY
+
 40 frequencyBodyAngularVelocityMeanFreqZ
+
 41 frequencyBodyAccelerationMagnitudeMean
+
 42 frequencyBodyAccelerationMagnitudeMeanFreq
+
 43 frequencyBodyAccelerationJerkMagnitudeMean
+
 44 frequencyBodyAccelerationJerkMagnitudeMeanFreq
+
 45 frequencyBodyAngularVelocityMagnitudeMean
+
 46 frequencyBodyAngularVelocityMagnitudeMeanFreq
+
 47 frequencyBodyAngularVelocityJerkMagnitudeMean
+
 48 frequencyBodyAngularVelocityJerkMagnitudeMeanFreq
+
 49 timeBodyAccelerationStdX
+
 50 timeBodyAccelerationStdY
+
 51 timeBodyAccelerationStdZ
+
 52 timeGravityAccelerationStdX
+
 53 timeGravityAccelerationStdY
+
 54 timeGravityAccelerationStdZ
+
 55 timeBodyAccelerationJerkStdX
+
 56 timeBodyAccelerationJerkStdY
+
 57 timeBodyAccelerationJerkStdZ
+
 58 timeBodyAngularVelocityStdX
+
 59 timeBodyAngularVelocityStdY
+
 60 timeBodyAngularVelocityStdZ
+
 61 timeBodyAngularVelocityJerkStdX
+
 62 timeBodyAngularVelocityJerkStdY
+
 63 timeBodyAngularVelocityJerkStdZ
+
 64 timeBodyAccelerationMagnitudeStd
+
 65 timeGravityAccelerationMagnitudeStd
+
 66 timeBodyAccelerationJerkMagnitudeStd
+
 67 timeBodyAngularVelocityMagnitudeStd
+
 68 timeBodyAngularVelocityJerkMagnitudeStd
+
 69 frequencyBodyAccelerationStdX
+
 70 frequencyBodyAccelerationStdY
+
 71 frequencyBodyAccelerationStdZ
+
 72 frequencyBodyAccelerationJerkStdX
+
 73 frequencyBodyAccelerationJerkStdY
+
 74 frequencyBodyAccelerationJerkStdZ
+
 75 frequencyBodyAngularVelocityStdX
+
 76 frequencyBodyAngularVelocityStdY
+
 77 frequencyBodyAngularVelocityStdZ
+
 78 frequencyBodyAccelerationMagnitudeStd
+
 79 frequencyBodyAccelerationJerkMagnitudeStd
+
 80 frequencyBodyAngularVelocityMagnitudeStd
+
 81 frequencyBodyAngularVelocityJerkMagnitudeStd
 
